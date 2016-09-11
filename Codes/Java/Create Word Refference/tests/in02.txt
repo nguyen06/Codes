@@ -1,8 +1,0 @@
-aa
-bb
-cc
-dd
-DD
-CC
-BB
-AA
