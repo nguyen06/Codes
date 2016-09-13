@@ -1,4 +1,0 @@
-You know how to get input from a user with raw_input or argv. Now you will learn about 
-reading from a file. You may have to play with this exercise the most to understand what's 
-going on, so do the exercise carefully and remember your checks. Working with files is an 
-easy way to erase your work if you are not careful.
