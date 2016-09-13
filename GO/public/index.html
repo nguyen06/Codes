@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Play Go</title>
+
+    <!--  Quicksand Font -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quicksand" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+                  <!-- <span class="sr-only">Toggle navigation</span> -->
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a onclick="logoutConfirm();" class="navbar-brand"><span class="glyphicon glyphicon-home"></span></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a onclick="return popup('../files/RulesOfGo.pdf')"><span class="glyphicon glyphicon-question-sign"></span></a></li>
+                    <!-- <li><a onclick="return popup('../files/RulesOfGo.pdf')">Rules</a></li> -->
+                    <li><a onclick="return popup('../nav-pages/aboutus.html')"><span class="glyphicon glyphicon-user"></span></a></li>
+                    <!-- <li><a onclick="return popup('../nav-pages/aboutus.html')">About Us</a></li> -->
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="text-center">
+                <div class="col-sm-6">
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-6 circle mainCircle">
+                        <div class="header">
+                        <!-- <h3>Welcome to</h3> -->
+                            <h1>Go</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="col-sm-6 circle">
+                        <label><input type="checkbox" value="" onchange = "handiCap(this);">Handicaps?</label>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Board Sizes
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <!--  change what board size options do here -->
+                                <li><a onclick="setBoard(9);">9X9</a></li>
+                                <li><a onclick="setBoard(13);">13X13</a></li>
+                                <li><a onclick="setBoard(19);">19X19</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6"></div>
+                </div>
+
+                <div class="col-sm-12"></div>
+
+                <div class="col-sm-6">
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-6 circle">
+                        <button class="btn btn-primary samurai-button" type="button" onclick="setTheme(2);">Samurai Theme</button>
+                        <button class="btn btn-primary geisha-button" type="button" onclick="setTheme(1);">Geisha Theme</button>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="col-sm-6 circle buttons">
+                        <button class="btn btn-primary one-player-button" type="button" onclick="checkOnePlyrBoard();">One Player vs AI</button>
+                        <button class="btn btn-primary two-player-button" type="button" onclick="checkTwoPlyrBoard();">Two Player</button>
+                    </div>
+                    <div class="col-sm-6"></div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    <script type="text/javascript" src="oneplayer/script.js"></script>
+    <script type="text/javascript" src="twoplayer/script.js"></script>
+    <script type="text/javascript" src="shared.js"></script>
+</body>
+
+</html>
