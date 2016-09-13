@@ -1,0 +1,20 @@
+10
+12
+8
+-8
+35
+5
+3
+700
+1684
+41910
+24
+5
+<syntax error>
+<syntax error>
+<unbalanced ()>
+<unbalanced ()>
+<noninteger>
+<noninteger>
+<divide by zero>
+<unbalanced ()>

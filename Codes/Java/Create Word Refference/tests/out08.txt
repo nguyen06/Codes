@@ -1,0 +1,67 @@
+about: 1 1
+absence: 12
+and: 7
+applied: 3
+approaches: 7
+astronomy: 1
+avoids: 8
+aware: 6
+be: 11
+better: 4
+branches: 3
+bugs: 11
+but: 11
+can: 9 10 11
+clever: 8
+competent: 6
+computer: 1 9
+computers: 1
+difficult: 3
+dijkstra: 13
+edsger: 13
+full: 7
+fully: 6
+had: 4
+he: 7
+his: 6 7
+humility: 7
+interesting: 9
+like: 8
+limited: 6
+mathematicians: 4 5
+mathematics: 4
+more: 1 9
+most: 3
+never: 11
+no: 1 9
+of: 3 3 6 6 9 10 11
+one: 3
+own: 7
+plague: 8
+poorer: 4
+presence: 11
+program: 11
+programmer: 6
+programming: 3
+pure: 4
+question: 9 10
+quotes: 13
+remain: 4
+science: 1
+show: 11 12
+size: 6
+skull: 7
+submarine: 10
+swim: 10
+task: 7
+telescopes: 2
+testing: 11
+than: 1 10
+their: 12
+therefore: 7
+think: 9
+to: 11 12
+tricks: 8
+used: 11
+whether: 9 10
+with: 7
