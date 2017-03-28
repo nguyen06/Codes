@@ -1,0 +1,18 @@
+Computer science is no more about computers than astronomy is about
+telescopes.
+
+Programming is one of the most difficult branches of applied
+mathematics; the poorer mathematicians had better remain pure
+mathematicians.
+
+The competent programmer is fully aware of the limited size of his
+own skull. He therefore approaches his task with full humility, and
+avoids clever tricks like the plague.
+
+The question of whether a computer can think is no more interesting
+than the question of whether a submarine can swim.
+
+Program testing can be used to show the presence of bugs, but never
+to show their absence!
+
+Edsger Dijkstra quotes

@@ -1,0 +1,60 @@
+aber: 4
+an: 2
+auf: 7
+aufgang: 2
+aufrauschenden: 6
+begeisterte: 5
+bestaendig: 2
+das: 5 5
+dasein: 2
+dauern: 1
+den: 1 6
+der: 1 8
+doch: 1 7
+dort: 4
+durchgeht: 7
+einmal: 7
+er: 3
+faenden: 4
+ficht: 2
+finster: 5
+fort: 3
+gefahr: 4
+held: 1
+hinein: 6
+hoer: 7
+ich: 7
+ihn: 2 4 6 7
+in: 6
+ins: 3
+ist: 1 2
+jugendlich: 1
+keinen: 7
+luft: 8
+mich: 7
+mit: 8
+nah: 1
+nicht: 2
+nimmt: 3
+ploetzlich: 5
+schicksal: 5
+sein: 2 8
+seiner: 4 6
+sich: 3
+singt: 6
+sternbild: 3
+steten: 4
+stroemenden: 8
+sturm: 6
+ton: 8
+toten: 1
+tritt: 3
+und: 3
+uns: 5
+veraenderte: 3
+verdunkelter: 8
+verschweigt: 5
+welt: 6
+wenige: 4
+wie: 7
+wunderlich: 1
