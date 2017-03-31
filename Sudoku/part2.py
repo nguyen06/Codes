@@ -7,7 +7,7 @@ def get_possitive_from_minisat_out_put():
 	num_of_variable = 0
 	num_of_clause = 0
 	num = ''
-	with open("minisol.txt") as f:
+	with open("minisol.cnf") as f:
 		f.readline()
 		for lines in f:
 			for ch in lines:
