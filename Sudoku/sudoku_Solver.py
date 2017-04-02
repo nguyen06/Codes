@@ -9,8 +9,8 @@ class element:
 
 sudoku_list_element = []
 list_contain_at_list_one = []
-list_element_to_CNF_file = []
-list_at_most_one_number = []
+list_element_to_CNF_file = [] # initialize 
+list_at_most_one_number = [] #
 list_at_most_one_number_column =[]
 list_at_most_one_number_column_in_three_by_three = []
 list_at_most_one_number_column_in_three_by_three_part_two =[]
