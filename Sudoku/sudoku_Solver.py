@@ -83,7 +83,7 @@ def contain_at_least_one_number():
 	for i in range(1,10):
 		for j in range(1,10):
 			for k in range(1,10):
-				tempObject = element(i,j,k)
+				tempObject = element(i,j,k) #fa
 				list_contain_at_list_one.append(tempObject)
 
 def conver_contain_at_least_one_number_to_CNF(list_element):
