@@ -11,7 +11,7 @@ sudoku_list_element = []
 list_contain_at_list_one = []
 list_element_to_CNF_file = [] # initialize 
 list_at_most_one_number = [] #
-list_at_most_one_number_column =[]
+list_at_most_one_number_column =[] #list for number of column
 list_at_most_one_number_column_in_three_by_three = []
 list_at_most_one_number_column_in_three_by_three_part_two =[]
 
@@ -90,7 +90,7 @@ def conver_contain_at_least_one_number_to_CNF(list_element):
 	line_num = 1
 	column_num = 1
 	for element in list_element:
-		
+		#print*"hello")
 		if int(element.row) == line_num and int(element.column) == column_num:
 			CNF_temp_element = 81*(int(element.row) -1) + 9*(int(element.column) -1) + (int(element.value) -1) +1
 			temp_file.write(str(CNF_temp_element) + " ")
