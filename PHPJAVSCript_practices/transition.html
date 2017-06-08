@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Transition on hover</title>
+		<style>
+			#square{
+				position:		absolute;
+				top:			50px;
+				left:			50px;
+				width:			100px;
+				height:			100px;
+				padding:		2px;
+				text-align: 	center;
+				border-width:	1px;
+				border-style:	solid;
+				background: 	orange;
+				transition:		all .8s ease-in-out;
+				-moz-transition:	all .8s ease-in-out;
+				-webkit-transition:	all .8s ease-in-out;
+				-o-transition:		all .8s ease-in-out;
+				-ms-transition:		all .8s ease-in-out;
+			}
+			#square:hover{
+				background: yellow;
+				-moz-transform:	rotate(360deg);
+				-webkit-transform: rotate(360deg);
+				-o-transition:		rotate(360deg);
+				-ms-transition:		rotate(360deg);
+				transform:			rotate(360deg);
+			}
+		</style>
+	</head>
+	<body>
+		<div id='square'>Square shape<br>create using<br>a simple div<br>element width<br>a 1px border
+		</div>
+	</body>
+
+</html>

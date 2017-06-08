@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Event: detecting mouse enter or leave and event</title>
+		<script src='jquery-3.2.1.js'></script>
+		<script type="text/javascript" src="sound-mouseover.js"></script>
+	</head>
+	<body>
+		<h2 id='apple' onclick="play(); ">Apple</h2><br><br><br><br>
+		<audio id='audioA' src="apple.mp3"></audio>
+
+		<h2 id='orange' onclick="orange();"></audio>Orange</h2>
+		<br><br><br><br>
+		<audio id='audioO' src="orange.mp3"></audio>
+
+		<h2 id='banana' onclick="banana();"></audio>Banana</h2>
+		<br><br><br><br>
+		<audio id='audioB' src="banana.mp3"></audio>
+
+		<h2 id='grape' onclick="grape();"></audio>Grape</h2>
+		<br><br><br><br>
+		<audio id='audioG' src="grape.mp3"></audio>
+		<h2 id='lemon' onclick="lemon();"></audio>Lemon</h2>
+		<audio id='audioL' src="lemon.mp3"></audio>
+		<script>
+			
+			$('#apple').mouseleave(function(){$(this).html('Apple')})
+			$('#apple').mouseenter(function(){$(this).prepend($('<img>',{src:'apple.png'}))})
+			function play(){
+				var audio = document.getElementById("audioA");
+       			audio.play();
+			}
+
+		</script>
+		
+		<script>
+
+			$('#orange').mouseleave(function(){$(this).html('Orange')})
+			
+			$('#orange').mouseenter(function(){$(this).prepend($('<img>',{src:'orange.jpg'}))})
+			function orange(){
+				var audio = document.getElementById("audioO");
+       			audio.play();
+			}
+		</script>
+		
+		
+		<script>
+
+			$('#banana').mouseleave(function(){$(this).html('Banana')})
+			
+			$('#banana').mouseenter(function(){$(this).prepend($('<img>',{src:'Banana.jpg'}))})
+			function banana(){
+				var audio = document.getElementById("audioB");
+       			audio.play();
+			}
+			
+		</script>
+
+		<script>
+
+			$('#grape').mouseleave(function(){$(this).html('Grape')})
+			
+			$('#grape').mouseenter(function(){$(this).prepend($('<img>',{src:'grape.jpg'}))})
+			function grape(){
+				var audio = document.getElementById("audioG");
+       			audio.play();
+			}
+			
+		</script>
+
+		<script>
+
+			$('#lemon').mouseleave(function(){$(this).html('Lemon')})
+			
+			$('#lemon').mouseenter(function(){$(this).prepend($('<img>',{src:'lemon.jpg'}))})
+			function lemon(){
+				var audio = document.getElementById("audioL");
+       			audio.play();
+			}
+			
+		</script>
+		
+</html>
