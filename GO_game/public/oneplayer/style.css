@@ -1,0 +1,111 @@
+/*****************************
+ *  ========General========  *
+ *****************************/
+ html {
+     position: relative;
+     min-height: 100%;
+ }
+
+ body {
+     padding-top: 50px;
+     margin-bottom: 60px;
+ }
+
+ /***************************
+  *  ========Board========  *
+  ***************************/
+#canvas{
+    width:600px;
+    height:600px;
+    margin:0 auto;
+    /* fix box-shadow resizing problem */
+    box-shadow: 0 0 10px 10px #333;
+}
+
+.infoUI {
+    /*background: green;*/
+    font-family: quicksand;
+    font-variant: lighter;
+    font-size: 1.2em;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 10px 0px 5px 10px;
+    margin-bottom: 5%;
+    margin-left: -17.5%;
+}
+
+/**********************************
+ *  ========Main Buttons========  *
+ **********************************/
+#pass-btn {
+    background: #333;
+    margin: 0 auto;
+    width: 100%;
+    height: 65px;
+    font-family: quicksand;
+    font-variant: lighter;
+    font-size: 1.2em;
+}
+#pass-btn:hover {
+    background: #ff4e50;
+    color: #333;
+    border: solid 1px #333;
+}
+.btn-class {
+    width: 150px;
+    float: left;
+}
+.test-class {
+    margin-top: 60px;
+}
+.test-class > .col-md-3 {
+    margin-top: 20%;
+}
+
+/****************************
+ *  ========Navbar========  *
+ ****************************/
+ .navbar {
+     /*background-color: #333;*/
+     background: transparent;
+ }
+ .navbar a:hover {
+     color: #333;
+     background-color: transparent;
+ }
+ li a {
+     color: #333;
+     font-family: quicksand;
+     font-variant: lighter;
+     font-size: 1.3em;
+ }
+ .glyphicon {
+     font-size: 1.5em;
+     margin: 0 auto;
+ }
+ .navbar-brand {
+     color: #333;
+ }
+ .navbar-brand:hover .glyphicon {
+     text-decoration: underline;
+ }
+ .navbar > .container-fluid > .collapse > ul:hover a:hover {
+     background: transparent;
+ }
+ .icon-bar {
+     background-color: #333;
+ }
+ .navbar-toggle {
+     border-color: #333;
+ }
+ .navbar-header > button:hover {
+     box-shadow: 0 0 2px 2px white;
+ }
+ .navbar-nav {
+     float: right;
+ }
+ .navbar-nav > li, a:hover .glyphicon {
+     text-decoration: underline;
+     background-color: transparent;
+ }

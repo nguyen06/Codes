@@ -1,0 +1,79 @@
+all: 4
+and: 2 4 6 7 14
+art: 2
+as: 13
+brag: 11
+breathe: 13
+buds: 3
+but: 9
+by: 8
+can: 13 13
+chance: 8
+changing: 8
+compare: 1
+complexion: 6
+course: 8
+darling: 3
+date: 4
+day: 1
+death: 11
+declines: 7
+dimmd: 6
+do: 3
+eternal: 9 12
+every: 7
+eye: 5
+eyes: 13
+fade: 9
+fair: 7 7 10
+from: 7
+gives: 14
+gold: 6
+growst: 12
+hath: 4
+heaven: 5
+his: 6 11
+hot: 5
+in: 11 12
+lease: 4
+life: 14
+lines: 12
+lives: 14
+long: 13 14
+lose: 10
+lovely: 2
+may: 3
+men: 13
+more: 2 2
+natures: 8
+nor: 10 11
+not: 9
+of: 3 5 10
+often: 6
+or: 8 13
+owst: 10
+possession: 10
+rough: 3
+see: 13
+shade: 11
+shake: 3
+shall: 1 9 11
+shines: 5
+short: 4
+so: 13 14
+sometime: 5 7
+summer: 9
+summers: 1 4
+temperate: 2
+that: 10
+thee: 1 14
+this: 14 14
+thou: 2 10 11 12
+thy: 9
+time: 12
+to: 1 12 14
+too: 4 5
+untrimmd: 8
+wanderst: 11
+when: 12
+winds: 3
