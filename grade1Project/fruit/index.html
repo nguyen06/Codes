@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>Event: detecting mouse enter or leave and event</title>
+		<meta charset="utf-8">
+		<script src='../js/jquery-3.2.1.js'></script>
+		<script type="text/javascript" src="../js/sound-mouseover.js"></script>
+		<!-- <link rel='stylesheet' type='text/css' href='../css/position.css'> -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	    
+	</head>
+	<body>
+
+	   <div class="jumbotron">
+	   <h1>Nhóm từ vựng trái cây </h1>      
+	   <p>Bấm váo chử phía dưới, sẽ thấy hình trái cây hiện ra.</p>
+	   <p>Nếu bạn bấm vào hình, sẽ nghe phát âm của từ đó.</p>
+	    </div>
+
+	    <div class="container">
+	    	<div class="span12">
+
+				<span id='apple' text-align='center' onclick="play()";>Apple</span>
+				<audio id='audioA' src="../sound/apple.mp3"></audio>
+
+				<br><br><br>
+
+				<span id='orange' onclick="orange();">Orange</span>
+				<audio id='audioO' src="../sound/orange.mp3"></audio>
+				<br><br><br>
+
+				<span id='banana' onclick="banana();"></audio>Banana</span>
+				<audio id='audioB' src="../sound/banana.mp3"></audio>
+				<br><br><br>
+
+				<span id='grape' onclick="grape();">Grape</span>
+				<audio id='audioG' src="../sound/grape.mp3"></audio>
+				<br><br><br>
+
+				<span id='lemon' onclick="lemon();"></audio>Lemon</span>
+				<audio id='audioL' src="../sound/lemon.mp3"></audio>
+				
+				<br><br><br>
+				<span id='mango' onclick="mango();"></audio>Mango</span>
+				<audio id='audioM' src="../sound/mango.mp3"></audio>
+				<br><br><br>
+
+				<span id='lime' onclick="lime();"></audio>Lime</span>
+				<audio id='audioLa' src="../sound/lime.mp3"></audio>
+				<br><br><br>
+
+				<span id='pear' onclick="pear();"></audio>Pear</span>
+				<audio id='audioPe' src="../sound/pear.mp3"></audio>
+				<br><br><br>
+
+				<span id='pomegranate' onclick="pomegranate();">Pomegranate</span>
+				<audio id='audioPome' src="../sound/pomegranate.mp3"></audio>
+				<br><br><br>
+				
+				<span id='pineapple' onclick="pineapple();">pineapple</span>
+				<audio id='audioPine' src="../sound/pineapple.mp3"></audio>
+
+				<br><br><br>
+				<span id='avocado' onclick="avocado();">Avocado</span>
+				<audio id='audioAvo' src="../sound/avocado.mp3"></audio>
+				
+				<br><br><br>
+				<span id='lychee' onclick="lychee();">Lychee</span>
+				<audio id='audioLyc' src="../sound/lychee.mp3"></audio>
+
+				<br><br><br>
+				<span id='watermelon' onclick="watermelon();">Watermelon</span>
+				<audio id='audioWat' src="../sound/watermelon.mp3"></audio>
+
+				<br><br><br>
+				<span id='durian' onclick="durian();">Durian</span>
+				<audio id='audioDur' src="../sound/durian.mp3"></audio>
+
+				<br><br><br>
+				<span id='jackfruit' onclick="jackfruit();">jackfruit</span>
+				<audio id='audioJac' src="../sound/jackfruit.mp3"></audio>
+
+				<br><br><br>
+				<span id='coconut' onclick="coconut();">Coconut</span>
+				<audio id='audioCoc' src="../sound/coconut.mp3"></audio>
+
+				<br><br><br>
+				<span id='papaya' onclick="papaya();">Papaya</span>
+				<audio id='audioPap' src="../sound/papaya.mp3"></audio>
+				<br><br><br>
+				<br><br><br>
+			</div>
+		</div>
+		<script>
+			$('span').css('font-size','40')
+			$('span').css('font-weight','bold')
+		</script>
+
+		<script>
+			
+			$('#papaya').mouseleave(function(){$(this).html('Papaya')})
+			$('#papaya').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/papaya.jpg'}))})
+			function papaya(){
+				var audio = document.getElementById("audioPap");
+	   			audio.play();
+		}
+		</script>
+
+
+		<script>
+			
+			$('#coconut').mouseleave(function(){$(this).html('coconut')})
+			$('#coconut').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/coconut.jpg'}))})
+			function coconut(){
+				var audio = document.getElementById("audioCoc");
+	   			audio.play();
+		}
+		</script>
+
+
+
+		<script>
+			
+			$('#jackfruit').mouseleave(function(){$(this).html('jackfruit')})
+			$('#jackfruit').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/jackfruit.jpg'}))})
+			function jackfruit(){
+				var audio = document.getElementById("audioJac");
+	   			audio.play();
+		}
+		</script>
+
+
+		<script>
+			
+			$('#durian').mouseleave(function(){$(this).html('Durian')})
+			$('#durian').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/durian.jpg'}))})
+			function durian(){
+				var audio = document.getElementById("audioDur");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#watermelon').mouseleave(function(){$(this).html('Watermelon')})
+			$('#watermelon').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/watermelon.jpg'}))})
+			function watermelon(){
+				var audio = document.getElementById("audioWat");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#lychee').mouseleave(function(){$(this).html('Lychee')})
+			$('#lychee').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/lychee.jpg'}))})
+			function lychee(){
+				var audio = document.getElementById("audioLyc");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#avocado').mouseleave(function(){$(this).html('Avocado')})
+			$('#avocado').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/avocado.jpg'}))})
+			function avocado(){
+				var audio = document.getElementById("audioAvo");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#pineapple').mouseleave(function(){$(this).html('pineapple')})
+			$('#pineapple').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/pineapple.jpg'}))})
+			function pineapple(){
+				var audio = document.getElementById("audioPine");
+	   			audio.play();
+		}
+		</script>
+
+
+		<script>
+			
+			$('#pomegranate').mouseleave(function(){$(this).html('Pomegranate')})
+			$('#pomegranate').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/pomegranate.jpg'}))})
+			function pomegranate(){
+				var audio = document.getElementById("audioPome");
+	   			audio.play();
+		}
+		</script>
+
+
+		<script>
+			
+			$('#pear').mouseleave(function(){$(this).html('Pear')})
+			$('#pear').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/pear.jpg'}))})
+			function pear(){
+				var audio = document.getElementById("audioPe");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#lime').mouseleave(function(){$(this).html('Lime')})
+			$('#lime').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/lime.jpg'}))})
+			function lime(){
+				var audio = document.getElementById("audioLa");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#mango').mouseleave(function(){$(this).html('Mango')})
+			$('#mango').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/mango.jpg'}))})
+			function mango(){
+				var audio = document.getElementById("audioM");
+	   			audio.play();
+		}
+
+		</script>
+		<script>
+			
+			$('#apple').mouseleave(function(){$(this).html('Apple')})
+			$('#apple').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/apple.jpg'}))})
+			function play(){
+				var audio = document.getElementById("audioA");
+	   			audio.play();
+		}
+
+		</script>
+				
+		<script>
+
+			$('#orange').mouseleave(function(){$(this).html('Orange')})
+			
+			$('#orange').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/orange.jpg'}))})
+			function orange(){
+				var audio = document.getElementById("audioO");
+					audio.play();
+			}
+		</script>
+
+				
+		<script>
+
+			$('#banana').mouseleave(function(){$(this).html('Banana')})
+			
+			$('#banana').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/Banana.jpg'}))})
+			function banana(){
+				var audio = document.getElementById("audioB");
+					audio.play();
+			}
+			
+		</script>
+
+		<script>
+
+			$('#grape').mouseleave(function(){$(this).html('Grape')})
+			
+			$('#grape').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/grape.jpg'}))})
+			function grape(){
+				var audio = document.getElementById("audioG");
+					audio.play();
+			}
+			
+		</script>
+
+		<script>
+
+			$('#lemon').mouseleave(function(){$(this).html('Lemon')})
+			
+			$('#lemon').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/lemon.jpg'}))})
+			function lemon(){
+				var audio = document.getElementById("audioL");
+					audio.play();
+			}
+		</script>
+	</body>
+		
+</html>

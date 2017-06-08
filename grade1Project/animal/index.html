@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>Animal in house</title>
+		<meta charset="utf-8">
+		<script src='../js/jquery-3.2.1.js'></script>
+		<script type="text/javascript" src="../js/sound-mouseover.js"></script>
+		<!-- <link rel='stylesheet' type='text/css' href='../css/position.css'> -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	    
+	</head>
+	<body>
+
+	   <div class="jumbotron">
+	   <h1>Nhóm từ vựng động vật </h1>      
+	   <p>Bấm váo chử phía dưới, sẽ thấy hình động vật hiện ra.</p>
+	   <p>Nếu bấm vào hình, sẽ nghe phát âm của từ đó.</p>
+	    </div>
+
+	    <div class="container">
+	    	<div class="span12">
+
+				<span id='cat' text-align='center' onclick="cat()";>Cat</span>
+				<audio id='audioCat' src="../sound/cat.mp3"></audio>
+
+				<br><br><br>
+
+				<span id='dog' onclick="dog();">Dog</span>
+				<audio id='audioDog' src="../sound/dog.mp3"></audio>
+				<br><br><br>
+
+				<span id='rabbit' onclick="rabbit();"></audio>Rabbit </span>
+				<audio id='audioRatb' src="../sound/rabbit.mp3"></audio>
+				<br><br><br>
+
+				<span id='rat' onclick="rat();">Rat</span>
+				<audio id='audioRat' src="../sound/rat.mp3"></audio>
+				<br><br><br>
+
+				<span id='spider' onclick="spider();"></audio>Spider</span>
+				<audio id='audioSpi' src="../sound/spider.mp3"></audio>
+				
+				<br><br><br>
+				<span id='goldfish' onclick="goldfish();"></audio>Goldfish</span>
+				<audio id='audioGodf' src="../sound/goldfish.mp3"></audio>
+				<br><br><br>
+
+				<span id='snake' onclick="snake();"></audio>Snake</span>
+				<audio id='audioSna' src="../sound/snake.mp3"></audio>
+				<br><br><br>
+
+				<span id='chicken' onclick="chicken();"></audio>Chicken</span>
+				<audio id='audioChi' src="../sound/chicken.mp3"></audio>
+				<br><br><br>
+
+				<span id='cow' onclick="cow();">Cow</span>
+				<audio id='audioCow' src="../sound/cow.mp3"></audio>
+				<br><br><br>
+				
+				<span id='horse' onclick="horse();">Horse</span>
+				<audio id='audioHor' src="../sound/horse.mp3"></audio>
+
+				<br><br><br>
+				<span id='pig' onclick="pig();">Pig</span>
+				<audio id='audioPig' src="../sound/pig.mp3"></audio>
+				
+				<br><br><br>
+				<span id='sheep' onclick="sheep();">Sheep</span>
+				<audio id='audioShe' src="../sound/sheep.mp3"></audio>
+
+				<br><br><br>
+				<span id='bee' onclick="bee();">Bee</span>
+				<audio id='audioBee' src="../sound/bee.mp3"></audio>
+
+				<br><br><br>
+				<span id='crab' onclick="crab();">Crab</span>
+				<audio id='audioCrab' src="../sound/crab.mp3"></audio>
+
+				<br><br><br>
+				<span id='butterfly' onclick="butterfly();">Butterfly</span>
+				<audio id='audioButt' src="../sound/butterfly.mp3"></audio>
+
+				<br><br><br>
+				<span id='dragonfly' onclick="dragonfly();">Dragonfly</span>
+				<audio id='audioDrag' src="../sound/dragonfly.mp3"></audio>
+
+				<br><br><br>
+				<span id='fly' onclick="fly();">Fly</span>
+				<audio id='audioFly' src="../sound/fly.mp3"></audio>
+				<br><br><br>
+				<br><br><br>
+			</div>
+		</div>
+		<script>
+			$('span').css('font-size','40')
+			$('span').css('font-weight','bold')
+		</script>
+
+		<script>
+			
+			$('#fly').mouseleave(function(){$(this).html('Fly')})
+			$('#fly').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/fly.jpg'}))})
+			function fly(){
+				var audio = document.getElementById("audioFly");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#cat').mouseleave(function(){$(this).html('Cat')})
+			$('#cat').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/cat.jpg'}))})
+			function cat(){
+				var audio = document.getElementById("audioCat");
+	   			audio.play();
+		}
+		</script>
+
+
+		<script>
+			
+			$('#dog').mouseleave(function(){$(this).html('Dog')})
+			$('#dog').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/dog.jpg'}))})
+			function dog(){
+				var audio = document.getElementById("audioDog");
+	   			audio.play();
+		}
+		</script>
+
+
+
+		<script>
+			
+			$('#rabbit').mouseleave(function(){$(this).html('Rabbit')})
+			$('#rabbit').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/rabbit.jpg'}))})
+			function rabbit(){
+				var audio = document.getElementById("audioRatb");
+	   			audio.play();
+		}
+		</script>
+
+
+		<script>
+			
+			$('#rat').mouseleave(function(){$(this).html('Rat')})
+			$('#rat').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/rat.jpg'}))})
+			function rat(){
+				var audio = document.getElementById("audioRat");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#cockatoo').mouseleave(function(){$(this).html('Cockatoo')})
+			$('#cockatoo').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/cockatoo.jpg'}))})
+			function cockatoo(){
+				var audio = document.getElementById("audioCoc");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#spider').mouseleave(function(){$(this).html('Spider')})
+			$('#spider').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/spider.jpg'}))})
+			function spider(){
+				var audio = document.getElementById("audioSpi");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#goldfish').mouseleave(function(){$(this).html('goldfish')})
+			$('#goldfish').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/goldfish.jpg'}))})
+			function goldfish(){
+				var audio = document.getElementById("audioGodf");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#snake').mouseleave(function(){$(this).html('Snake')})
+			$('#snake').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/snake.jpg'}))})
+			function snake(){
+				var audio = document.getElementById("audioSna");
+	   			audio.play();
+		}
+		</script>
+
+
+		<script>
+			
+			$('#chicken').mouseleave(function(){$(this).html('Chicken')})
+			$('#chicken').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/chicken.jpg'}))})
+			function chicken(){
+				var audio = document.getElementById("audioChi");
+	   			audio.play();
+		}
+		</script>
+
+
+		<script>
+			
+			$('#cow').mouseleave(function(){$(this).html('Cow')})
+			$('#cow').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/cow.jpg'}))})
+			function cow(){
+				var audio = document.getElementById("audioCow");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#horse').mouseleave(function(){$(this).html('Horse')})
+			$('#horse').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/horse.jpg'}))})
+			function horse(){
+				var audio = document.getElementById("audioHor");
+	   			audio.play();
+		}
+		</script>
+
+		<script>
+			
+			$('#pig').mouseleave(function(){$(this).html('Pig')})
+			$('#pig').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/pig.jpg'}))})
+			function pig(){
+				var audio = document.getElementById("audioPig");
+	   			audio.play();
+		}
+
+		</script>
+		<script>
+			
+			$('#sheep').mouseleave(function(){$(this).html('sheep')})
+			$('#sheep').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/sheep.jpg'}))})
+			function sheep(){
+				var audio = document.getElementById("audioShe");
+	   			audio.play();
+		}
+
+		</script>
+				
+		<script>
+
+			$('#bee').mouseleave(function(){$(this).html('Bee')})
+			
+			$('#bee').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/bee.jpg'}))})
+			function bee(){
+				var audio = document.getElementById("audioBee");
+					audio.play();
+			}
+		</script>
+
+				
+		<script>
+
+			$('#crab').mouseleave(function(){$(this).html('Crab')})
+			
+			$('#crab').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/crab.jpg'}))})
+			function crab(){
+				var audio = document.getElementById("audioCrab");
+					audio.play();
+			}
+			
+		</script>
+
+		<script>
+
+			$('#butterfly').mouseleave(function(){$(this).html('Butterfly')})
+			
+			$('#butterfly').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/butterfly.jpg'}))})
+			function butterfly(){
+				var audio = document.getElementById("audioButt");
+					audio.play();
+			}
+			
+		</script>
+
+		<script>
+
+			$('#dragonfly').mouseleave(function(){$(this).html('Dragonfly')})
+			
+			$('#dragonfly').mouseenter(function(){$(this).prepend($('<img>',{src:'../img/dragonfly.jpg'}))})
+			function dragonfly(){
+				var audio = document.getElementById("audioDrag");
+					audio.play();
+			}
+		</script>
+	</body>
+		
+</html>
